@@ -1,0 +1,15 @@
+﻿<Window x:Class="Calculator_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator_app"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="CalcOutput" HorizontalAlignment="Center" Height="25" Margin="0,30,0,0" Text="The Best Calculator Ever" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="TypeInput" HorizontalAlignment="Center" Height="50" Text="Input" TextWrapping="Wrap" VerticalAlignment="Center" Width="100"/>
+        <Button x:Name="EnterButton" Content="Enter" HorizontalAlignment="Center" Margin="0,256,0,0" VerticalAlignment="Top" Click="EnterButton_Click"/>
+        <Button x:Name="CalculateButton" Content="=" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Click="CalculateButton_Click"/>
+    </Grid>
+</Window>
